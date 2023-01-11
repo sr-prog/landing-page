@@ -1,4 +1,22 @@
+* {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+button {
+  background-color: #3882F6;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+}
+
 /* stuff related to the top box */
+
+#kon-disc {
+  max-width: 600px;
+  margin-bottom: 30px;
+}
 
 .top-box {
   background-color: #1F2937;
@@ -27,6 +45,8 @@
   display:flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 
@@ -63,6 +83,7 @@ ul {
   flex: 1 1 auto;
   height: auto;
   width: 200px;
+  max-width: 400px;
 }
 
 /* Stuff related to the second box*/
@@ -70,7 +91,8 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 500px;
+  padding: 0px 400px;
+  padding-bottom: 100px;
 }
 
 #box-2-text {
@@ -91,8 +113,81 @@ ul {
   border-style: solid;
   border-width: 5px;
   border-color: #3882F6;
+  background-size: 100%;
+  background-position: center; 
 }
+
+.image-and-text-box {
+  width: 200px;
+}
+
+.image-subtext {
+  text-align: center;
+}
+
 
 
 /* stuff related to box 3 */
 
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px 20%;
+  background-color: #e5e7eb;
+  flex: 1;
+}
+
+#quote-text {
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 36px;
+}
+
+#quote-author {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+/* stuff related to box 4 */
+.call-to-action-box {
+  background-color: #3882F6;
+  display: flex;
+  align-items: center;
+  margin: 100px 400px;
+  border-radius: 10px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.cta-left {
+  padding-left: 40px;
+  flex: 2;
+}
+
+.cta-right {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+#cta-button {
+  border-style: solid;
+}
+
+
+/* Set background image for div image boxes */
+#image-box-1 {
+  background-image: url("./images/ritsu.webp");
+}
+#image-box-2 {
+  background-image: url("./images/mugi.webp");
+}
+#image-box-3 {
+  background-image: url("./images/yui.webp")
+}
+
+#image-box-4 {
+  background-image: url("./images/mio.webp")
+}
