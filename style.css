@@ -1,0 +1,60 @@
+.top-box {
+  background-color: #1F2937;
+  color: white; 
+  display: flex;
+  flex-direction: column;
+  padding: 100px 400px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.top-box-content{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body {
+  margin: 0;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+
+.top-box-content-left {
+  margin-right: auto;
+  align-items: center;
+  flex-grow: 1;
+}
+
+#mugi {
+  height: auto;
+  width: 300px;
+}
