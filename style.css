@@ -1,9 +1,11 @@
+/* stuff related to the top box */
+
 .top-box {
   background-color: #1F2937;
   color: white; 
   display: flex;
   flex-direction: column;
-  padding: 100px 400px;
+  padding: 20px 400px;
   align-items: stretch;
   justify-content: center;
 }
@@ -13,10 +15,12 @@
   flex-wrap: wrap-reverse;
   justify-content: center;
   align-items: center;
+  margin-top: auto;
 }
 
 .header {
   display: flex;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -49,12 +53,16 @@ ul {
 
 
 .top-box-content-left {
-  margin-right: auto;
   align-items: center;
-  flex-grow: 1;
+  padding-right: 30px;
+  flex: 1 1 auto;
 }
 
+
 #mugi {
+  flex: 1 1 auto;
   height: auto;
-  width: 300px;
+  width: 200px;
 }
+
+/* Stuff related to the second box*/
